@@ -1,0 +1,22 @@
+
+body {
+    background-color:black
+
+}
+/* navigatiebalk */
+nav ul{
+    list-style-type: none;
+    margin: auto;
+    overflow: hidden;
+    padding: 0;
+    float:middle above;
+    color: white;
+}
+h1{
+    color: white;
+}
+article p{
+    float: middle;
+    padding: 5px;
+    color: white
+}
