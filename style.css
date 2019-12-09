@@ -2,26 +2,33 @@
   box-sizing: border-box;
 }
 
+
+
+.landen{
+    text-align: center;
+    background: transparent;
+    color: white;
+}
 body {
-  font-family: Arial;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   padding: 10px;
-  background: #f1f1f1;
+  background: transparent;
+  background-image: url("achtergrond.jpg");
+    background-color: transparent;
+    background-size: cover;
+    margin: 0px;
+ 
 }
 
 /* Header/Blog Title */
 .header {
   padding: 30px;
   text-align: center;
-  background: white;
+  background: transparent;
+  color: white;
 
 }
-3{
-    width: 1;
-}
-afbeeldingen chili{
-    width: 2px;
 
-}
 .header h1 {
   font-size: 20px;
 }
@@ -29,7 +36,8 @@ afbeeldingen chili{
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: gray;
+  color: black;
 }
 
 /* Style the topnav links */
@@ -89,7 +97,7 @@ afbeeldingen chili{
 .footer {
   padding: 20px;
   text-align: center;
-  background: #ddd;
+  background: transparent;
   margin-top: 20px;
 }
 
