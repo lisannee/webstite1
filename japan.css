@@ -1,4 +1,4 @@
- {
+{
   box-sizing: border-box;
 }
 
@@ -13,21 +13,14 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   padding: 10px;
   background: transparent;
-  background-image: url("achtergrond.jpg");
+  background-image: url("japon.jpg");
     background-color: transparent;
     background-size: cover;
     margin: 0px;
  
 }
 
-/* Header/Blog Title */
-.header {
-  padding: 30px;
-  text-align: center;
-  background: transparent;
-  color: white;
 
-}
 
 .header h1 {
   font-size: 20px;
@@ -37,14 +30,14 @@ body {
 .topnav {
   overflow: hidden;
   background-color: gray;
-  color: black;
+  color: white;
 }
 
 /* Style the topnav links */
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -61,6 +54,7 @@ body {
 .leftcolumn {   
   float: left;
   width: 100%;
+  padding-right: 20px;
 }
 
 /* Right column */
@@ -71,12 +65,6 @@ body {
   padding-left: 20px;
 }
 
-/* Fake image */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
 
 /* Add a card effect for articles */
 .card {
@@ -91,28 +79,4 @@ body {
   content: "";
   display: table;
   clear: both;
-}
-
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: transparent;
-  margin-top: 20px;
-}
-
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {   
-    width: 100%;
-    padding: 0;
-  }
-}
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .topnav a {
-    float: none;
-    width: 100%;
-  }
 }
