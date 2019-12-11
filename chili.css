@@ -64,8 +64,9 @@ body {
 .rightcolumn {
   float: left;
   width: 100%;
-  background-color: #f1f1f1;
+  background-color: transparent;
   padding-left: 20px;
+  color: white;
 }
 
 /* Fake image */
@@ -77,7 +78,7 @@ body {
 
 /* Add a card effect for articles */
 .card {
-  background-color: transparent;
+  background: transparent;
   padding: 20px;
   margin-top: 20px;
 
