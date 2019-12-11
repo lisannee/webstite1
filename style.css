@@ -36,8 +36,8 @@ body {
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
-  background-color: gray;
-  color: black;
+  background-color: black;
+  color: white;
 }
 
 /* Style the topnav links */
@@ -52,8 +52,8 @@ body {
 
 /* Change color on hover */
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: black;
+  color: white;
 }
 
 /* Create two unequal columns that floats next to each other */
@@ -73,7 +73,7 @@ body {
 
 /* Fake image */
 .fakeimg {
-  background-color: #aaa;
+  background-color: white;
   width: 100%;
   padding: 20px;
 }

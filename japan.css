@@ -14,12 +14,17 @@ body {
   padding: 10px;
   background: transparent;
   background-image: url("japon.jpg");
-    background-color: transparent;
     background-size: cover;
     margin: 0px;
  
 }
-
+/* Header/Blog Title */
+.header{
+    padding: 30px;
+    text-align: center;
+    background: transparent;
+    color: white;
+}
 
 
 .header h1 {
@@ -29,7 +34,7 @@ body {
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
-  background-color: gray;
+  background-color: black;
   color: white;
 }
 
@@ -45,8 +50,8 @@ body {
 
 /* Change color on hover */
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: grey;
+  color: white;
 }
 
 /* Create two unequal columns that floats next to each other */
@@ -54,7 +59,6 @@ body {
 .leftcolumn {   
   float: left;
   width: 100%;
-  padding-right: 20px;
 }
 
 /* Right column */
@@ -65,10 +69,15 @@ body {
   padding-left: 20px;
 }
 
-
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
 /* Add a card effect for articles */
 .card {
-  background-color: white;
+  background-color: transparent;
   padding: 20px;
   margin-top: 20px;
 
