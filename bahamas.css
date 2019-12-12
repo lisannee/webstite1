@@ -1,6 +1,8 @@
 {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
+
+
 
 .landen{
     text-align: center;
@@ -11,10 +13,12 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   padding: 10px;
   background: transparent;
-  background-image: url("chili5.jpg");
+  background-image: url("bahamas.jpg");
     background-size: cover;
     margin: 0px;
-     font-size: 20px;
+    color: white;
+    border-block-end-width: 10px;
+    font-size: 20px;
  
 }
 
@@ -24,6 +28,7 @@ body {
   text-align: center;
   background: transparent;
   color: white;
+  
 
 }
 
@@ -50,7 +55,7 @@ body {
 
 /* Change color on hover */
 .topnav a:hover {
-  background-color: gray;
+  background-color: grey;
   color: white;
 }
 
@@ -65,7 +70,7 @@ body {
 .rightcolumn {
   float: left;
   width: 100%;
-  background-color: transparent;
+  background-color: #f1f1f1;
   padding-left: 20px;
   color: white;
 }
@@ -79,9 +84,10 @@ body {
 
 /* Add a card effect for articles */
 .card {
-  background: transparent;
+  background-color: transparent;
   padding: 20px;
   margin-top: 20px;
+  color: white;
 
 }
 

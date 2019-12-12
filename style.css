@@ -10,13 +10,14 @@
     color: white;
 }
 body {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   padding: 10px;
   background: transparent;
   background-image: url("achtergrond.jpg");
     background-color: transparent;
     background-size: cover;
     margin: 0px;
+     font-size: 20px;
  
 }
 

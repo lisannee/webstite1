@@ -10,12 +10,13 @@
     color: white;
 }
 body {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   padding: 10px;
   background: transparent;
   background-image: url("japon.jpg");
     background-size: cover;
     margin: 0px;
+     font-size: 20px;
  
 }
 /* Header/Blog Title */
