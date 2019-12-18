@@ -20,7 +20,9 @@ body {
     background-repeat: no-repeat;
     background-color: snow;
      font-size: 20px;
+     border-block-end-width: 10px;
  
+
 }
 
 /* Header/Blog Title */
@@ -34,6 +36,7 @@ body {
 
 .header h1 {
   font-size: 30px;
+  background-color: black;
 }
 
 /* Style the top navigation bar */

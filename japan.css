@@ -17,7 +17,9 @@ body {
     background-size: cover;
     margin: 0px;
      font-size: 20px;
+     border-block-end-width: 10px;
  
+
 }
 /* Header/Blog Title */
 .header{
@@ -29,7 +31,7 @@ body {
 
 
 .header h1 {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 /* Style the top navigation bar */

@@ -15,6 +15,7 @@ body {
     background-size: cover;
     margin: 0px;
      font-size: 20px;
+     border-block-end-width: 10px;
  
 }
 
@@ -24,11 +25,12 @@ body {
   text-align: center;
   background: transparent;
   color: white;
+  margin: 10px;
 
 }
 
 .header h1 {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 /* Style the top navigation bar */
@@ -82,6 +84,7 @@ body {
   background: transparent;
   padding: 20px;
   margin-top: 20px;
+  color: white;
 
 }
 
