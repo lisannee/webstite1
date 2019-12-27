@@ -1,46 +1,35 @@
- {
+* {
   box-sizing: border-box;
 }
 
-
-
-.landen{
-    text-align: center;
-    background: transparent;
-    color: white;
-}
 body {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Arial;
   padding: 10px;
-  background: transparent;
-  background-image: url("achtergrond.jpg");
-    background-color: transparent;
-    background-size: cover;
-    margin: 0px;
-     font-size: 20px;
-     border-block-end-width: 10px;
- 
+  background:white;
+  background-image: url(afbeeldingen/achtergrond.jpg);
+  background-size: 100%;
+  color: white;
 }
+
+
+
+
 
 /* Header/Blog Title */
 .header {
   padding: 30px;
   text-align: center;
   background: transparent;
-  color: white;
-  
-
 }
 
 .header h1 {
-  font-size: 30px;
+  font-size: 50px;
 }
 
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
   background-color: black;
-  color: white;
 }
 
 /* Style the topnav links */
@@ -55,40 +44,26 @@ body {
 
 /* Change color on hover */
 .topnav a:hover {
-  background-color: black;
-  color: white;
+  background-color: #ddd;
+  color: black;
 }
 
 /* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn {   
-  float: left;
+  float: center;
   width: 100%;
 }
 
-/* Right column */
-.rightcolumn {
-  float: left;
-  width: 100%;
-  background-color: transparent;
-  padding-left: 20px;
-  color: white;
-}
 
-/* Fake image */
-.fakeimg {
-  background-color: white;
-  width: 100%;
-  padding: 20px;
-}
 
 /* Add a card effect for articles */
 .card {
-  background-color: transparent;
+  background-color: white;
   padding: 20px;
   margin-top: 20px;
-  color: white;
-
+  border: black 20px solid;
+  color: black;
 }
 
 /* Clear floats after the columns */
