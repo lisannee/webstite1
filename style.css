@@ -5,13 +5,10 @@
 body {
   font-family: Arial;
   padding: 10px;
-  background:white;
-  background-image: url(afbeeldingen/achtergrond.jpg);
+  background-image: linear-gradient(lightyellow, yellow, orange, red, black);
   background-size:100%;
-  background-repeat: no-repeat;
-  color: white;
+  color: grey;
 }
-
 
 
 
@@ -21,7 +18,7 @@ body {
   padding: 30px;
   text-align: center;
   background: transparent;
-  text-shadow: 5px 5px rgb(0, 0, 0);
+  text-shadow: 2px 2px rgb(0, 0, 0);
 }
 
 .header h1 {
@@ -88,8 +85,17 @@ body {
   text-align: center;
   background: transparent;
   margin-top: 20px;
+  color: white;
+  font-size: 10px;
 }
-
+.foot{
+  padding: 20px;
+  font-size: 5px;
+  text-align: center;
+  background: transparent;
+  margin-top: 20px;
+  color: white;
+}
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn {   
