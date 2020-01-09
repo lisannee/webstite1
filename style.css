@@ -5,10 +5,11 @@
 
 body {
   font-family: Arial;
-  padding: 10px;
-  background-image: linear-gradient(black,red,orange, yellow, orange, red, black);
-  background-size:100%;
+  background-size:cover;
   color: white;
+  position: relative;
+  padding: 10px;
+   background-image: linear-gradient(black,black,black, red,red,red, orange,orange,orange,yellow, yellow,yellow,orange,orange,orange,red, red,red, black,black,black);
 }
 
 main{
@@ -21,14 +22,18 @@ main{
 .header {
   padding: 30px;
   text-align: center;
-  background: transparent;
-  text-shadow: 2px 2px rgb(0, 0, 0);
-  color: white;
+  background: white;
+  color: black;
+  font-size: 30px;
+  mix-blend-mode: screen;
+  font-weight: bolder;
 }
 
-.header h1 {
-  font-size: 50px;
-
+.bod{
+     background-image: linear-gradient(black,red,orange, yellow, orange, red, black);
+  background-size:cover;
+  color: white;
+  position: relative;
 }
 
 /* Style the top navigation bar */
@@ -61,14 +66,6 @@ main{
 }
 
 
-.note1{
- float: right;
-  transition: transform .2s;
-  width: 200px;
-  height: 200px;
-  margin: 0 auto;
-}
-
 .note1:hover {
   -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
@@ -88,8 +85,9 @@ main{
   color: grey;
   text-shadow: 1.5px 1.5px black;
   font-size: 30px;
-
 }
+
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -97,7 +95,6 @@ main{
   clear: both;
 }
 
-Â
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn {   

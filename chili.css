@@ -1,7 +1,7 @@
 body{
     background-image: url("afbeeldingen/chili5.jpg");
     background-repeat: repeat-y;
-    background-size: 100%;
+    background-size: cover;
     color: white;
     }
     main{
